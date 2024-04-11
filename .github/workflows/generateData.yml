@@ -33,6 +33,7 @@ jobs:
       
       - name: Main
         run: |
+          git pull
           pwd
           chmod +x generateData.sh
           ./generateData.sh
